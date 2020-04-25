@@ -9,10 +9,15 @@
 import UIKit
 
 class CameraViewController: UIViewController {
-
+    
+    @IBOutlet weak var capturedItemNameLabel: UILabel!
+    @IBOutlet weak var capturedItemConfidenceLabel: UILabel!
+    @IBOutlet weak var cameraView: UIView!
+    @IBOutlet weak var flashToggleButton: UIView!
+    @IBOutlet weak var capturedImageView: UIView!
+        
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
 

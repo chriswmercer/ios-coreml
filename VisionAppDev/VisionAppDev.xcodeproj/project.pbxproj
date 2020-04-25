@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		6E36FB852454998E002F66C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E36FB842454998E002F66C0 /* AppDelegate.swift */; };
 		6E36FB872454998E002F66C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E36FB862454998E002F66C0 /* SceneDelegate.swift */; };
-		6E36FB892454998E002F66C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E36FB882454998E002F66C0 /* ViewController.swift */; };
+		6E36FB892454998E002F66C0 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E36FB882454998E002F66C0 /* CameraViewController.swift */; };
 		6E36FB8C2454998E002F66C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E36FB8A2454998E002F66C0 /* Main.storyboard */; };
 		6E36FB8E24549993002F66C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E36FB8D24549993002F66C0 /* Assets.xcassets */; };
-		6E36FB9124549993002F66C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E36FB8F24549993002F66C0 /* LaunchScreen.storyboard */; };
+		6E5B74FF2454AB390091D1EF /* RoundedShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5B74FE2454AB390091D1EF /* RoundedShadowView.swift */; };
+		6E5B75012454AC480091D1EF /* RoundedShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5B75002454AC480091D1EF /* RoundedShadowButton.swift */; };
+		6E5B75032454ACAB0091D1EF /* RoundedShadowImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5B75022454ACAB0091D1EF /* RoundedShadowImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6E36FB812454998E002F66C0 /* VisionAppDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionAppDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E36FB842454998E002F66C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E36FB862454998E002F66C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6E36FB882454998E002F66C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6E36FB882454998E002F66C0 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		6E36FB8B2454998E002F66C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6E36FB8D24549993002F66C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6E36FB9024549993002F66C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E36FB9224549993002F66C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E5B74FE2454AB390091D1EF /* RoundedShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowView.swift; sourceTree = "<group>"; };
+		6E5B75002454AC480091D1EF /* RoundedShadowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowButton.swift; sourceTree = "<group>"; };
+		6E5B75022454ACAB0091D1EF /* RoundedShadowImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +67,6 @@
 				6E36FB862454998E002F66C0 /* SceneDelegate.swift */,
 				6E36FB8A2454998E002F66C0 /* Main.storyboard */,
 				6E36FB8D24549993002F66C0 /* Assets.xcassets */,
-				6E36FB8F24549993002F66C0 /* LaunchScreen.storyboard */,
 				6E36FB9224549993002F66C0 /* Info.plist */,
 			);
 			path = VisionAppDev;
@@ -72,7 +75,7 @@
 		6E36FB98245499AF002F66C0 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				6E36FB882454998E002F66C0 /* ViewController.swift */,
+				6E36FB882454998E002F66C0 /* CameraViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -80,6 +83,9 @@
 		6E36FB99245499BC002F66C0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				6E5B74FE2454AB390091D1EF /* RoundedShadowView.swift */,
+				6E5B75002454AC480091D1EF /* RoundedShadowButton.swift */,
+				6E5B75022454ACAB0091D1EF /* RoundedShadowImageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -149,7 +155,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E36FB9124549993002F66C0 /* LaunchScreen.storyboard in Resources */,
 				6E36FB8E24549993002F66C0 /* Assets.xcassets in Resources */,
 				6E36FB8C2454998E002F66C0 /* Main.storyboard in Resources */,
 			);
@@ -162,8 +167,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E36FB892454998E002F66C0 /* ViewController.swift in Sources */,
+				6E5B74FF2454AB390091D1EF /* RoundedShadowView.swift in Sources */,
+				6E5B75012454AC480091D1EF /* RoundedShadowButton.swift in Sources */,
+				6E36FB892454998E002F66C0 /* CameraViewController.swift in Sources */,
 				6E36FB852454998E002F66C0 /* AppDelegate.swift in Sources */,
+				6E5B75032454ACAB0091D1EF /* RoundedShadowImageView.swift in Sources */,
 				6E36FB872454998E002F66C0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -177,14 +185,6 @@
 				6E36FB8B2454998E002F66C0 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		6E36FB8F24549993002F66C0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6E36FB9024549993002F66C0 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
