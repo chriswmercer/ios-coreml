@@ -75,6 +75,9 @@
                                 <state key="normal" title="Flash Off">
                                     <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="didPressFlash:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UA3-lT-zs5"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -98,7 +101,7 @@
                         <outlet property="capturedImageView" destination="CmQ-Dt-N7b" id="jLh-u1-qeL"/>
                         <outlet property="capturedItemConfidenceLabel" destination="5tc-ut-Yn2" id="8Zl-Y4-Ijv"/>
                         <outlet property="capturedItemNameLabel" destination="aaw-po-wzD" id="HTs-KE-DAD"/>
-                        <outlet property="flashToggleButton" destination="Q0N-MH-xCw" id="mCV-mI-6gC"/>
+                        <outlet property="flashToggleButton" destination="CFr-vO-ONv" id="Pmg-8z-wSv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
